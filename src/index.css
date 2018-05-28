@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 50px;
+  font-family: sans-serif;
+}
+
+.calculator {
+  margin-left: 500px;
+
+}
+.key {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 16px;
+  margin: 2px;
+  border: none;
+}
+
+
+.key-function, .key-operation, .key-point {
+  background-color: gray;
+}
+
+.key-equal{
+  width: 104px;
+  background-color: lawngreen;
+}
+
+.display {
+  margin-left: 2px;
+  padding: 20px;
+  display: inline-block;
+  width: 172px;
+  background-color:  lawngreen;
+  font-size: 18px;
+}
+
+
+
+
