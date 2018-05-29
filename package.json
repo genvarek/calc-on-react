@@ -2,6 +2,7 @@
   "name": "example",
   "version": "0.1.0",
   "private": true,
+
   "dependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
@@ -12,5 +13,27 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "jest": {
+    "coverageReporters": [
+      "node_modules/react/",
+      "node_modules/enzyme/"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^23.0.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-15": "^1.0.5",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^22.0.0",
+    "react-addons-test-utils": "^15.6.2",
+    "@types/enzyme": "^3.1.0",
+    "react-scripts-ts": "2.8.0",
+    "react-test-renderer": "^16.3.2"
   }
+
+  
+
+
 }
